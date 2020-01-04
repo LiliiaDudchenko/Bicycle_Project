@@ -25,3 +25,14 @@ jQuery(document).ready(function () {
     speed: 1000
   })
 });
+
+jQuery(window).resize(function () {
+  const windowWidth = $(window).width();
+  console.log(windowWidth);
+  if(windowWidth > 540){
+      $('.navigation ul').css({display : 'flex'})
+  }
+   else {
+    $('.navigation ul').css({display : 'none'})
+   }
+});
