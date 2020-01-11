@@ -1085,5 +1085,18 @@ header .logo {
 		margin: 20px auto;
 	}
 
+	.footer_bottom {
+		padding: 35px;
+	}
+
+	.adress {
+		text-align: center;
+	}
+
+	.footer_inner {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
 
 }
